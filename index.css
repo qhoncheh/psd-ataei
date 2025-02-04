@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  display: relative;
+  @apply bg-gray-50
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-remover::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-remover {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
