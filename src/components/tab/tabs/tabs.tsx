@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TabButton from "../tab-button/tab-button";
-import TabContent from "../tab-content/tab-content";
+import TabContent from "../content/tab-content";
 
 type TabId = string;
   interface TabType {

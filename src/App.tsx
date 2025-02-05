@@ -1,6 +1,6 @@
 import React from "react";
 import Tabs from "./components/Tab/Tabs";
-import TabForm from "./components/tab/tab-form/tab-form";
+import TabForm from "./components/Table/form/tab-form";
 
 
 const App: React.FC = () => {
